@@ -17,6 +17,9 @@ m2 = meter_sq
 meter_cu = classes.SIUnit("meter_cu", "m", 3)
 m3 = meter_cu
 
+meter_per_second = classes.SIUnit("meter_per_second", "mps", 1)
+mps = meter_per_second
+
 kilogram = classes.SIUnit("kilogram", "kg")
 kg = kilogram
 
