@@ -18,6 +18,10 @@ mile = Unit(name='mile', abbr='mile', si=meter, to_si_fun=lambda n: n * 1_609.34
 
 # meter_cu
 
+# meter_per_second
+kilometer_per_hour = Unit(name='kilometer_per_hour', abbr="kmph", si=mps, to_si_fun=lambda n: n * 1000/60/60)
+kmph = kilometer_per_hour
+
 # kilogram
 
 pound = Unit(name='pound', abbr='lb', si=kilogram, to_si_fun=lambda n: n * 0.4535924)
